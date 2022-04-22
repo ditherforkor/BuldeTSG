@@ -71,8 +71,6 @@ jobs:
 #           type: centos
 #           url: "docker://centos:8"
         - name: debian:buster
-          type: debian
-          # https://packages.debian.org/buster/python/python3 (3.7)
           url: "docker://debian:buster"
         - name: debian:bullseye
           type: debian
